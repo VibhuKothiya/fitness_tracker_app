@@ -35,7 +35,7 @@ Develop a secure and efficient backend to manage user data, workout logs, and go
 ### Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/fitness-tracker.git
+    git clone https://github.com/VibhuKothiya/fitness_tracker_app.git
     cd fitness-tracker
     ```
 
@@ -60,15 +60,15 @@ Develop a secure and efficient backend to manage user data, workout logs, and go
 2. The server should be running on `http://localhost:5050`
 
 ### Deployment on Rendor
-1. Create a Heroku app:
+1. Create a rendor app:
     ```bash
     render create fitness_tracker_app
     ```
 
 2. Add environment variables:
     ```bash
-    heroku config:set JWT_SECRET=Vibhuti
-    heroku config:set MONGO_URI=mongodb://localhost:27017/fitness_tracker
+    rendor config:set JWT_SECRET=Vibhuti
+    rendor config:set MONGO_URI=mongodb://localhost:27017/fitness_tracker
     ```
 
 3. Deploy:
